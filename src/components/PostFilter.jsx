@@ -1,6 +1,6 @@
-import React from 'react';
-import MyInput from "./UI/input/MyInput";
 import MySelect from "./UI/select/MySelect";
+import MyInput from "./UI/input/MyInput";
+import React from 'react';
 
 const PostFilter = ({filter, setFilter}) => {
     return (
@@ -16,7 +16,7 @@ const PostFilter = ({filter, setFilter}) => {
                 defaultValue="Сортировка"
                 options={[
                     {value: 'title', name: 'По названию'},
-                    {value: 'body', name: 'По описанию'}
+                    {value: 'body', name: 'По описанию'},
                 ]}
             />
         </div>
